@@ -1,22 +1,22 @@
 class Culprit < Formula
   desc "Terminal log viewer that groups stack traces and points at your code"
   homepage "https://github.com/amirizalrahmat0799/culprit"
-  version "0.3.2"
+  version "0.3.3"
   license "MIT"
 
   on_macos do
-    url "https://github.com/amirizalrahmat0799/culprit/releases/download/v0.3.2/culprit-0.3.2-macos-universal.tar.gz"
-    sha256 "a8ca9e77bfc39ea422f85b1f3ae900fa7cecf11b388b34d763b58370dc4ce698"
+    url "https://github.com/amirizalrahmat0799/culprit/releases/download/v0.3.3/culprit-0.3.3-macos-universal.tar.gz"
+    sha256 "0d01512af5ef2b3d62b8f774f241edc0f2d0d020b87f60450abfd2d039cecf85"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/amirizalrahmat0799/culprit/releases/download/v0.3.2/culprit-0.3.2-linux-x64.tar.gz"
-      sha256 "581912bfa9340676266d33ce8e925cd2dcd5bc925589a5b8199dc335beb8e923"
+      url "https://github.com/amirizalrahmat0799/culprit/releases/download/v0.3.3/culprit-0.3.3-linux-x64.tar.gz"
+      sha256 "52ae0ee28dd85ff7af4127c0bbab5b48a356fe49c82da9c37b70d97ff0d102f8"
     end
     on_arm do
-      url "https://github.com/amirizalrahmat0799/culprit/releases/download/v0.3.2/culprit-0.3.2-linux-arm64.tar.gz"
-      sha256 "b8e64b9c7f812c21ac11dc3a4aa58d746e0cb6c3b6e5637c21bbfe6724514300"
+      url "https://github.com/amirizalrahmat0799/culprit/releases/download/v0.3.3/culprit-0.3.3-linux-arm64.tar.gz"
+      sha256 "334af0fa7a5d8ae5ba687d098b3b6464237d051d38f69d263c54d125dfb6a7be"
     end
   end
 
